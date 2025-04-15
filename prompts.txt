@@ -1,3 +1,31 @@
-Prompt 1: ClickHouse to CSV ingestion logic in Python using clickhouse-connect
-Prompt 2: Basic Flask form to accept ClickHouse and File input fields
-Prompt 3: Upload CSV to ClickHouse with pandas
+# Prompts used with ChatGPT during development:
+
+1. "Create a Python script to ingest data from ClickHouse to flat file (CSV)"
+2. "How to ingest CSV file data into ClickHouse using Python"
+3. "JWT token-based authentication for ClickHouse in Python"
+4. "Build a Flask app with frontend to upload CSV and choose columns"
+5. "Connect to ClickHouse with clickhouse-connect and fetch table list"
+6. "Create a web UI with column selection from a CSV or database"
+7. "Docker command to run ClickHouse locally"
+8. "Display record count after ingestion in a Flask app"
+9. "Best way to show ingestion progress/status on a web UI"
+10. "Write a complete README.md for a ClickHouse to Flat File ingestion tool"
+11. "Make prompts.txt based on our conversation for submission"
+
+# Note:
+These prompts were used with ChatGPT to assist in planning, coding, and documenting the project. Final implementation and testing were done manually.
+
+1.Create file: prompts.txt
+
+2.Paste this content
+
+3.Save it
+
+4.Push to GitHub:
+
+bash
+Copy
+Edit
+git add prompts.txt
+git commit -m "Added AI prompts file"
+git push
