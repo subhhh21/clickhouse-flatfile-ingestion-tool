@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head><title>Data Ingestion</title></head>
+<body>
+  <h1>ClickHouse ↔ Flat File</h1>
+  <form method="post">
+    <label>Direction:</label><br>
+    <input type="radio" name="direction" value="clickhouse_to_file"> ClickHouse → File<br>
+    <input type="radio" name="direction" value="file_to_clickhouse"> File → ClickHouse<br><br>
+
+    <label>ClickHouse Host:</label><input name="host"><br>
+    <label>Port:</label><input name="port"><br>
+    <label>Database:</label><input name="database"><br>
+    <label>User:</label><input name="user"><br>
+    <label>JWT Token:</label><input name="token"><br><br>
+
+    <label>Flat File Name:</label><input name="filename"><br><br>
+
+    <input type="submit" value="Start Ingestion">
+  </form>
+</body>
+</html>

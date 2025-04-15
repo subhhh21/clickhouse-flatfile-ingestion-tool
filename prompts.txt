@@ -1,0 +1,3 @@
+Prompt 1: ClickHouse to CSV ingestion logic in Python using clickhouse-connect
+Prompt 2: Basic Flask form to accept ClickHouse and File input fields
+Prompt 3: Upload CSV to ClickHouse with pandas
